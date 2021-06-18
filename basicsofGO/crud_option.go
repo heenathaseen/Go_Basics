@@ -106,6 +106,8 @@ func main(){
 
 }
 
+
+
 func view(){
 	{ db, err := sql.Open("mysql", "heena:heena@tcp(45.120.136.152:3306)/heena?parseTime=true")
 	if err != nil {
